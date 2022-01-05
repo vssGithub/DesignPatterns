@@ -4,9 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Library {
-	private Map<String, RealEbook> ebooks = new HashMap<>();
+	private Map<String, Ebook> ebooks = new HashMap<>();
 	
-	public void add(RealEbook ebook) {
+	public void add(Ebook ebook) {
 		ebooks.put(ebook.getFileName(), ebook);
 	}
 	

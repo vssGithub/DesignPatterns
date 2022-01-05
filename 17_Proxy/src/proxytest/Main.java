@@ -15,6 +15,7 @@ public class Main {
 		}
 		
 		library.openEbook("a");
+		library.openEbook("c");
 	}
 
 }
